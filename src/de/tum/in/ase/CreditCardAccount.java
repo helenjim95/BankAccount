@@ -12,7 +12,7 @@ public class CreditCardAccount extends BankAccount {
     public boolean pay(double amount) {
         System.out.println("Pay from account " + accountId + "\n" + "Amount:\t\t\t" + amount);
         if (- creditBalance + amount > limit) {
-            System.out.println("Sorry, insufficient funds...\n");
+            System.out.println("Sorry, insufficient balance...\n");
             return false;
         }
         creditBalance = creditBalance - amount;
