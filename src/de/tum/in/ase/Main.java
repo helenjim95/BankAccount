@@ -14,12 +14,10 @@ public class Main {
         checking.withdraw(320.18);
 
         //To test the challenges
-        /*
         CreditCardAccount creditCard = new CreditCardAccount(7391,300.0, 1000.00);
         creditCard.pay(532.45);
         creditCard.pay(467.54);
         creditCard.pay(0.01);
         creditCard.pay(0.01);
-        */
     }
 }
