@@ -16,7 +16,7 @@ public class CreditCardAccount extends BankAccount {
             return false;
         }
         creditBalance = creditBalance - amount;
-        System.out.println("New balance:\t" + creditBalance + "\n");
+        System.out.println("New credit balance:\t" + creditBalance + "\n");
         return true;
     }
 }
